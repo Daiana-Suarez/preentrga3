@@ -1,0 +1,49 @@
+p{
+    font-family: 'Rubik', sans-serif;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+h1 {
+    padding: 20px 30px;
+    font-weight: lighter;
+    font-family: 'RichEatinAllCaps';
+    font-size: 50px;
+}
+a{
+    text-decoration-line: none;
+}
+.paraTexto{
+    font-family: 'Playfair Display', serif;
+}
+.iconos{
+    width: 30px;
+    height: 30px;
+}
+.list{
+    list-style: none;
+    font-size: 15px;
+}
+.paraIconosNav {
+    list-style: none;
+    font-size: 20px;
+}
+.paraIconosNav2 {
+    list-style: none;
+    font-size: 18px;
+}
+.cuadradoAzul{
+    background-color: #172643;
+    padding: 20px 20px 20px 0px;
+    border: 2px ridge #E2D8EC;
+    height: 100%;
+    width: 150px;
+        li{
+            a{
+                font-size: 22px;
+                display: flex;
+            }
+        }
+}

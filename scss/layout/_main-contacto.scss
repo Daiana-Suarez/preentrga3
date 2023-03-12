@@ -1,0 +1,80 @@
+/* EMPIEZA CSS CONTACTO*/
+.grid5{
+    @include grid;
+    grid-template-areas: 
+    "secC1 sec6 secC3 secC3 secC3"
+    "secC1 sec6 secC4 secC4 secC4"
+    "secC2 sec6 secC5 secC5 secC5"
+    "secC2 sec6 secC6 secC6 secC6"
+    "secC2 sec6 secC6 secC6 secC6"
+    ;
+}
+.secC1{
+    @include sec1;
+    padding: 100px 40px 50px 10px;
+    grid-area: secC1;
+    nav{
+        ul{
+            li{
+                padding: 20px;
+                color: black;
+                padding: 30px;
+            }
+        }
+    }
+}
+.secC2{
+    @include sec2;
+    padding: 100px 20px 20px 30px;
+    grid-area: secC2;
+    nav{
+        ul{
+            li{
+                padding: 30px 20px;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.secC3{
+    grid-area: secC3;
+}
+.secC4{
+    grid-area: secC4;
+}
+.ulContacto{
+    padding: 20px;
+    li{
+        padding: 10px;
+    }
+}
+.secC5{
+    grid-area: secC5;
+}
+.secC6{
+    grid-area: secC6;
+}
+section{
+    fieldset{
+        legend{
+            font-size:25px;
+        }
+    }
+}
+.list {
+    list-style: none;
+    font-size: 15px;
+}
+.dudas{
+    width: 100%px;
+    height: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.datos{
+    font-size:x-large;
+}
+/* TERMINA CSS CONTACTO*/

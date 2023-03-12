@@ -1,0 +1,22 @@
+/*mixins*/
+@mixin grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 50px repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+@mixin sec1{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    background-color: hsla(271, 42%, 78%, 0.863);
+    padding: 25px 10px 10px 10px;
+    border-bottom: 2px solid #172643;
+}
+@mixin sec2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsla(271, 42%, 78%, 0.863);
+    padding: 30px;
+}

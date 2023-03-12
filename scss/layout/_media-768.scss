@@ -1,0 +1,381 @@
+/*EMPIEZA INDEX TABLET*/
+@media (max-width: 768px){
+    header{
+        max-width: 100%;
+    }
+.grid1{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+}
+.sec1{
+    height: 50px;
+    nav {
+        ul {
+            display: flex;
+            li{
+                padding: 0;
+                margin: 0px 90px 100px 90px;
+                img{
+                    height: 0px;
+                    width: 0px;
+                } 
+            }
+        }
+    }
+}
+.sec2{
+    padding: 0px;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            margin: 0px 0px 0px 100px;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            li{
+                padding: 0;
+                margin: 5px 60px 0px 50px;
+                width: 50px;
+                display: flex;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.sec6{
+    height: 0px;
+    width: 0px;
+}
+.sec8{
+    height: 0px;
+    width: 0px;
+}
+.sec3{
+    height: 20px;
+    display: flex;
+    padding: 0px 0px 0px;
+}
+.sec4{
+    display: flex;
+    padding: 0px 0px 0px 340px;
+    margin-top: 112px;
+    height: 250px;
+    width: 150px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+.sec5{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px
+}
+.sec7{
+    margin-top: 0px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 70px;
+    align-items: baseline;
+}
+}
+/*TERMINA TABLET INDEX*/
+/*EMPIEZA TABLET QUIENES-SOMOS*/
+@media (max-width: 768px) {
+    header{
+        max-width: 100%;
+    }
+.grid2{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+}
+.secQ1{
+    height: 50px;
+    padding: 0px;
+    nav{
+        ul{
+            display: flex;
+            li{
+                padding: 0;
+                margin: 0px 90px 100px 90px;
+                img{
+                    height: 0px;
+                    width: 0px;
+                }
+            }
+        }
+    }
+}
+.secQ2{
+    padding: 0px;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            margin: 0px 0px 0px 100px;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            li{
+                padding: 0;
+                margin: 5px 60px 0px 50px;
+                width: 50px;
+                display: flex;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.secQ3{
+    h2{
+        padding-left: 250px;
+    }
+    div{
+        margin-left: 70px;
+    }
+}
+.secQ10{
+    h2{
+        padding-left: 100px;
+    }
+    div{
+        margin-left: 70px;
+    }
+}
+.secQ4{
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+}
+.secQ5{
+    width: auto;
+    height: auto;
+    padding-left: 500px;
+}
+.secQ6{
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+}
+.secQ7{
+    width: auto;
+    height: auto;
+    padding-left: 500px;
+}
+.secQ8{
+    width: auto;
+    height: auto;
+    padding-left: 50px;;
+}
+.secQ9{
+    width: auto;
+    height: auto;
+    padding-left: 500px;
+}
+}
+/*TERMINA TABLET QUIENES-SOMOS*/
+/*EMPIEZA TABLET QUE-ES-LA-MEDIACION*/
+@media (max-width: 768px){
+    header{
+        width: 768px;
+    }
+.grid3{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+}
+.secM1{
+    height: 50px;
+    flex-direction: row ;
+    padding: 70px 0px 0px 10px;
+    nav{
+        ul{
+            display: flex;
+            li{
+                padding: 0;
+                margin: 40px 90px 100px 90px;
+                img{
+                    height: 0px;
+                    width: 0px;
+                }
+            }
+        }
+    }
+}
+.secM2{
+    padding: 0px;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            margin: 0px 0px 0px 100px;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            li{
+                padding: 0;
+                margin: 5px 60px 0px 80px;
+                width: 20px;
+                display: flex;
+                justify-content: flex-end;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.secM3{
+    display: block;
+    margin-left: 30px;
+    h2{
+        padding-left: 190px;
+        padding-top: 20px;
+    }
+}
+.secM5{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    ul{
+        li{
+            iframe{
+                width: 738px;
+                height: 402px;
+            }
+        }
+    }
+}
+/*TERMINA TABLET QUE-ES-LA-MEDIACION*/
+/*EMPIEZA ACTIVIDADES TABLET*/
+@media (max-width: 768px) {
+    header{
+        max-width: 100%;
+    }
+}
+.grid4{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+}
+.secA1{
+    height: 50px;
+    padding: 0px;
+    nav{
+        ul{
+            display: flex;
+            li{
+                padding: 0;
+                margin: 0px 90px 100px 90px;
+                img{
+                    height: 0px;
+                    width: 0px;
+                }
+            }
+        }
+    }
+}
+.secA2{
+    padding: 0px;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            margin: 0px 0px 0px 100px;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            li{
+                padding: 0;
+                margin: 5px 60px 0px 50px;
+                width: 50px;
+                display: flex;
+                justify-content: flex-end;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.secA3 {
+    h2{
+        padding-left: 250px;
+    }
+}
+.secA5{
+    height: auto;
+}
+}
+/*TERMINA ACTIVIDADES TABLET*/
+/*EMPIEZA CONTACTO TABLET*/
+@media (max-width: 768px) {
+    header{
+        max-width: 100%;
+    }
+    .grid5{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .secC1{
+        height: 50px;
+        padding: 0px;
+        nav{
+            ul{
+                display: flex;
+                li{
+                    padding: 0;
+                    margin: 0px 90px 100px 90px;
+                    img{
+                        height: 0px;
+                        width: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .secC2{
+        padding: 0px;
+        nav{
+            display: flex;
+            ul{
+                display: flex;
+                margin: 0px 0px 0px 100px;
+                padding: 0px;
+                border: 0px;
+                height: 50px;
+                width: 0px;
+                li{
+                    padding: 0;
+                    margin: 5px 60px 0px 50px;
+                    width: 50px;
+                    display: flex;
+                    a{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+.secC6{
+    p{
+        margin-left: 25px;
+    }
+    iframe{
+        margin-left: 45px;
+    }
+}
+/*TERMINA CONTACTO TABLET*/

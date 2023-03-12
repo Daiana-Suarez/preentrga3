@@ -1,0 +1,70 @@
+/* EMPIEZA CSS ACTIVIDADES*/
+.grid4{
+    @include grid;
+    grid-template-areas: 
+    "secA1 sec6 secA3 secA3 secA3"
+    "secA1 sec6 secA3 secA3 secA3"
+    "secA2 sec6 secA4 secA4 secA4"
+    "secA2 sec6 secA5 secA5 secA5"
+    "secA2 sec6 secA5 secA5 secA5"
+    ;
+}
+.secA1{
+    @include sec1;
+    padding: 200px 30px 10px 10px;
+    grid-area: secA1;
+    nav{
+        ul{
+            li{
+                padding: 20px;
+                color: black;
+                padding: 30px;
+            }
+        }
+    }
+}
+.secA2{
+    @include sec2;
+    padding: 100px 20px 20px 30px;
+    grid-area: secA2;
+    nav{
+        ul{
+            li{
+                padding: 30px 20px;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .secA3{
+        grid-area: secA3;
+        h2{
+            font-weight: bold;
+            font-family: 'Rubik', sans-serif;
+        }
+    }
+    .secA4{
+        grid-area: secA4;
+    }
+    .col-4{
+        font-size: 30px;
+        div{
+            gap: 40px;
+        }
+    }
+    .secA5{
+        grid-area: secA5;
+        height: 200px;
+    }
+    .talleres{
+        padding: 20px;
+    }
+    .lol{
+        background-color: #E2D8EC;
+        border: 2px solid black;
+        padding: 20px 70px 20px 30px;
+        margin: 30px;
+    }
+    /* TERMINA CSS ACTIVIDADES*/

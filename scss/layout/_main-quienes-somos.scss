@@ -1,0 +1,96 @@
+/*EMPIEZA CSS QUIENES SOMOS*/
+.paraDiv{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.lup{
+    background-color: #E2D8EC;
+    border: 2px solid black;
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    width: 90%;
+}
+.grid2{
+    @include grid;
+    grid-template-areas:
+    "secQ1 sec6 secQ3 secQ3 secQ3"
+    "secQ1 sec6 secQ3 secQ3 secQ3"
+    "secQ2 sec6 secQ10 secQ10 secQ10"
+    "secQ2 sec6 secQ4 secQ5 secQ6"
+    "secQ2 sec6 secQ7 secQ8 secQ9"
+    ;
+}
+.secQ1{
+    @include sec1;
+    padding: 100px 50px 10px 10px;
+    grid-area:secQ1;
+    nav{
+        ul{
+            li{
+                padding: 20px;
+                color: black;
+                padding: 30pxpx;
+            }
+        }
+    }
+}
+.active img{
+    width: 20px;
+    height: 20px;
+}
+.secQ2{
+    @include sec2;
+    padding: 100px 20px 20px 30px;
+    grid-area: secQ2;
+    nav{
+        ul{
+            li{
+                padding: 30px 20px;
+            }
+                a{
+                    color: white;
+                }
+        }
+    }
+}
+.secQ3{
+    grid-area:  secQ3;
+    display: flex;
+    flex-direction: column;
+        h2{
+            padding-left: 300px;
+        }
+}
+.secQ4{
+    grid-area: secQ4;
+}
+.secQ5{
+    grid-area: secQ5;
+}
+.secQ6{
+    grid-area: secQ6;
+}
+.secQ7{
+    grid-area: secQ7;
+}
+.secQ8{
+    grid-area: secQ8;
+}
+.secQ9{
+    grid-area: secQ9;
+}
+.secQ10{
+    grid-area: secQ10;
+    padding: 0px 30px 20px 5px;
+    h2{
+        padding-left: 230px;
+    }
+}
+.redondeo2{
+    width: 100px;
+    height:90px ;
+    border-radius: 50%; 
+}
+/*TERMINA CSS QUIENES SOMOS*/

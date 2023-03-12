@@ -1,0 +1,87 @@
+/* EMPIEZA CSS QUE ES LA MEDIACION*/
+.grid3{
+    @include grid;
+    grid-template-areas: 
+    "secM1 sec6 secM3 secM3 secM3"
+    "secM1 sec6 secM3 secM3 secM3"
+    "secM2 sec6 secM7 secM7 secM7"
+    "secM2 sec6 secM7 secM7 secM7"
+    "secM2 sec6 secM5 secM5 secM5"
+    ;
+}
+.secM1{
+    @include sec1;
+    width: 100%;
+    height: auto;
+    padding: 100px 40px 30px 0px;
+    grid-area: secM1;
+    nav{
+        ul{
+            li{
+                padding: 20px;
+            }
+                a{
+                    color: black;
+                    padding: 30pxpx;
+                }
+        }
+    }
+}
+.secM2{
+    @include sec2;
+    padding: 100px 20px 20px 30px;
+    grid-area: secM2;
+    nav{
+        ul{
+            li{
+                padding: 30px 20px;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.secM3{
+    grid-area: secM3;
+    display: inherit;
+    h2{
+        padding-left: 150px;
+        padding-top: 50px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+    }
+}
+.paraImg13{
+    background-color: #E2D8EC;
+    border: 2px solid black;
+    padding: 40px 20px 50px 20px;
+    margin-bottom: 40px;
+    display: flex;
+    margin-right: 40px;
+}
+.secM5{
+    grid-area: secM5;
+    display: flex;
+    height: 235px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-left: 150px;
+}
+.secM7{
+    grid-area: secM7;
+}
+.secM8{
+    grid-area: secM8;
+}
+.sectionMulti{
+    img{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: flex-end;
+    }
+}
+/* TERMINA CSS QUE ES LA MEDIACION*/
