@@ -69,7 +69,7 @@ footer{
 /*EMPIEZA CONTACTO 425*/
 @media (max-width: 425px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
     .grid5{
         display: flex;
@@ -220,7 +220,7 @@ footer {
 /*EMPIEZA QUIENES-SOMOS 425*/
 @media (max-width: 425px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
 .grid2{
     display: flex;
@@ -277,7 +277,7 @@ footer {
 .secQ10{
     h2{
         padding-left: 20px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 }
 .secQ4{
@@ -310,7 +310,7 @@ footer {
 /*EMPIEZA ACTIVIDADES 425*/
 @media (max-width: 425px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
 .grid4{
     display: flex;

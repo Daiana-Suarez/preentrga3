@@ -1,7 +1,7 @@
 /*EMPIEZA INDEX TABLET*/
 @media (max-width: 768px){
     header{
-        max-width: 100%;
+        width: 100%;
     }
 .grid1{
     display: flex;
@@ -105,7 +105,7 @@ margin-left: 120px;
 /*EMPIEZA TABLET QUIENES-SOMOS*/
 @media (max-width: 768px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
 .grid2{
     display: flex;
@@ -163,7 +163,7 @@ margin-left: 120px;
 .secQ10{
     h2{
         padding-left: 100px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     div{
         margin-left: 70px;
@@ -278,7 +278,7 @@ margin-left: 120px;
 /*EMPIEZA ACTIVIDADES TABLET*/
 @media (max-width: 768px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
 }
 .grid4{
@@ -340,7 +340,7 @@ margin-left: 120px;
 /*EMPIEZA CONTACTO TABLET*/
 @media (max-width: 768px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
     .grid5{
         display: flex;
