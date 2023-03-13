@@ -1,7 +1,7 @@
 /*EMPIEZA QUE-ES-LA-MEDIACION 425*/
 @media (max-width: 425px) {
     header{
-        max-width: 100%;
+        width: 100%;
     }
 .grid3{
     display: flex;
@@ -93,6 +93,7 @@ footer{
     .secC2{
         display:flex;
         height: 200px;
+        justify-content: flex-end;
         nav{
             display: flex;
             ul{
@@ -107,7 +108,8 @@ footer{
                 margin-left: 67px;
                 li{
                     padding: 0;
-                    margin-left: 70px;
+                    margin-left: 100px;
+                    margin-bottom: 10px;
                     a{
                         font-size: 16px;
                     }
@@ -118,6 +120,265 @@ footer{
     .secC6{
         iframe {
             width: 400px;
+            margin-left: 0px;
     }
     }
 }
+/*EMPIEZA INDEX 425*/
+@media (max-width: 425px) {
+    header{
+        width: 100%;
+    }
+.grid1{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.sec1{
+    display:flex;
+    height: 52px;
+    nav{
+        ul{
+            gap: 10px;
+            li{
+                margin: 0px 10px 10px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+.sec2{
+    display:flex;
+    height: 200px;
+    nav{
+        display: flex;
+        ul{
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            li{
+                padding: 0;
+                margin: 5px 75px 10px;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.sec3{
+    height: 150px;
+    margin:-60px 0px 20px -200px
+}
+.sec4{
+    margin: 5px 10px 60px 60px;
+    padding: 0px;
+}
+.sec5{
+    width: 400px;
+}
+.sec6{
+    height: 0px;
+    width: 0px;
+}
+.sec8{
+    height: 0px;
+    width: 0px;
+}
+.sec7{
+    margin: 5px 10px 0px 60px;
+}
+.cards{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+footer {
+    background-color: #906AB6;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+}
+/*TERMINA INDEX 425*/
+/*EMPIEZA QUIENES-SOMOS 425*/
+@media (max-width: 425px) {
+    header{
+        max-width: 100%;
+    }
+.grid2{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.secQ1{
+    display:flex;
+    height: 52px;
+    nav{
+        ul{
+            gap: 10px;
+            li{
+                margin: 0px 10px 10px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+.secQ2{
+    display:flex;
+    height: 200px;
+    nav{
+        display: flex;
+        ul{
+            flex-direction: column;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            margin-left: 140px;
+            gap: 10px;
+            display: flex;
+            li{
+                padding: 0;
+                margin: 5px 25px 10px;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.secQ3{
+    h2{
+        padding-left: 100px;
+    }
+    div {
+        margin-left: 10px;
+    }
+}
+.secQ10{
+    h2{
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+}
+.secQ4{
+    padding-bottom: 20px
+}
+.secQ5{
+    padding-left: 50px;
+    padding-bottom: 20px
+}
+.secQ6{
+    padding-bottom: 20px
+}
+.secQ7{
+    padding-left: 50px;
+    padding-bottom: 20px
+}
+.secQ8{
+    padding-bottom: 20px
+}
+.secQ9{
+    padding-left: 50px;
+    padding-bottom: 20px
+}
+.secQ10 div {
+    margin-left: 10px;
+    padding-bottom: 20px
+}
+}
+/*TERMINA QUIENES-SOMOS 425*/
+/*EMPIEZA ACTIVIDADES 425*/
+@media (max-width: 425px) {
+    header{
+        max-width: 100%;
+    }
+.grid4{
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+}
+.secA1{
+    display:flex;
+    height: 52px;
+    nav{
+        ul{
+            gap: 10px;
+            li{
+                margin: 0px 10px 10px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+.secA2{
+    display:flex;
+    height: 200px;
+    nav{
+        display: flex;
+        ul{
+            flex-direction: column;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            gap: 10px;
+            display: flex;
+            li{
+                padding: 0;
+                margin-left: 100px;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.secA3{
+    h2{
+        padding: 20px 0px 0px 60px;
+    }
+}
+.secA5{
+    height: auto;
+}
+.cambio {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-direction: column;
+}
+.col-4 {
+    font-size: 20px;
+    width: 100%;
+}
+.col-8{
+    padding-left: 10px;
+}
+}
+/*TERMINA ACTIVIDADES 425*/
+

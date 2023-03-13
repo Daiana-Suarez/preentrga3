@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items:center ;
-    background-color: hsla(271, 42%, 78%, 0.863);
+    background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
     padding: 25px 10px 10px 10px;
     border-bottom: 2px solid #172643;
 }
@@ -17,6 +17,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: hsla(271, 42%, 78%, 0.863);
+    background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
     padding: 30px;
 }

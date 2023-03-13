@@ -46,13 +46,19 @@
         }
     }
 }
+.sec5{
+    width: 280px;
+    height: 290px;
+}
 .sec3{
     height: 150px;
-    margin: 5px 10px 50px 10px;
+    margin-left: -250px;
+    margin-bottom: -50px;
+    margin-top: -50px;
 }
 .sec4{
-    margin: 5px 10px 35px 10px;
-    padding: 0px;
+margin: 80px 0px 65px 11px;
+padding: 0px;
 }
 .sec6{
     height: 0px;
@@ -123,6 +129,7 @@ footer {
             padding: 0px;
             border: 0px;
             height: 50px;
+            margin-left: 100px;
             width: 0px;
             gap: 10px;
             display: flex;
@@ -147,6 +154,7 @@ footer {
 .secQ10{
     h2{
         padding-left: 20px;
+        margin-top: 70px;
     }
 }
 .secQ4{
@@ -283,7 +291,7 @@ footer {
             display: flex;
             li{
                 padding: 0;
-                margin-left: 20px;
+                margin-left: 55px;
                 a{
                     font-size: 16px;
                 }
@@ -359,7 +367,7 @@ footer {
             margin-left: 67px;
             li{
                 padding: 0px;
-                margin-left: 20px;
+                margin-left: 60px;
                 a{
                     font-size: 16px;
                 }
@@ -370,6 +378,7 @@ footer {
 .secC6{
     iframe{
         width: 300px;
+        margin-left: -1px;
     }
 }
 }

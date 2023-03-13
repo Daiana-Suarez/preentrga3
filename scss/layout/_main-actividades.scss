@@ -16,9 +16,8 @@
     nav{
         ul{
             li{
-                padding: 20px;
                 color: black;
-                padding: 30px;
+                padding: 30px 20px 10px 0px;
             }
         }
     }
@@ -33,16 +32,23 @@
                 padding: 30px 20px;
                     a{
                         color: white;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
                     }
                 }
             }
         }
     }
+
     .secA3{
         grid-area: secA3;
         h2{
             font-weight: bold;
             font-family: 'Rubik', sans-serif;
+            position: relative;
+            animation-name: desplazamiento;
+            animation-duration: 2s;
         }
     }
     .secA4{

@@ -13,6 +13,10 @@ header h1 {
   text-align: center;
 } /*MAIN INDEX*/
 /*EMPIEZA CSS INDEX*/
+header {
+  max-width: 100%;
+}
+
 .grid1 {
   display: grid;
   width: 100%;
@@ -25,7 +29,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
   padding: 25px 10px 10px 10px;
   border-bottom: 2px solid #172643;
   grid-area: sec1;
@@ -42,12 +46,18 @@ header h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
   padding: 30px;
   grid-area: sec2;
 }
 .sec2 nav ul li {
   padding: 24px;
+}
+.sec2 nav ul li a {
+  color: white;
+}
+.sec2 nav ul li a:hover {
+  transform: scale(1.1);
 }
 
 .sec3 {
@@ -102,6 +112,10 @@ header h1 {
   margin-left: 60px;
 }
 
+.cards:hover {
+  transform: scale(1.2);
+}
+
 /*TERMINA CARDS INDEX*/
 .paraP {
   background-image: url(../assets/img/pluma.jpeg);
@@ -128,7 +142,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
   padding: 25px 10px 10px 10px;
   border-bottom: 2px solid #172643;
   width: 100%;
@@ -148,7 +162,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
   padding: 30px;
   padding: 100px 20px 20px 30px;
   grid-area: secM2;
@@ -158,6 +172,9 @@ header h1 {
 }
 .secM2 nav ul li a {
   color: white;
+}
+.secM2 nav ul li a:hover {
+  transform: scale(1.1);
 }
 
 .secM3 {
@@ -169,8 +186,20 @@ header h1 {
   padding-top: 50px;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
+  position: relative;
+  animation-name: desplazamiento;
+  animation-duration: 2s;
 }
 
+@keyframes desplazamiento {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
 .paraImg13 {
   background-color: #E2D8EC;
   border: 2px solid black;
@@ -189,6 +218,9 @@ header h1 {
   flex-direction: row-reverse;
   justify-content: flex-end;
   padding-left: 150px;
+}
+.secM5 ul li iframe {
+  width: 800px;
 }
 
 .secM7 {
@@ -209,21 +241,6 @@ header h1 {
 /* TERMINA CSS QUE ES LA MEDIACION*/
 /*MAIN Q-S*/
 /*EMPIEZA CSS QUIENES SOMOS*/
-.paraDiv {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-}
-
-.lup {
-  background-color: #E2D8EC;
-  border: 2px solid black;
-  display: flex;
-  padding: 20px 30px 20px 30px;
-  width: 90%;
-}
-
 .grid2 {
   display: grid;
   width: 100%;
@@ -236,7 +253,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
   padding: 25px 10px 10px 10px;
   border-bottom: 2px solid #172643;
   padding: 100px 50px 10px 10px;
@@ -257,7 +274,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
   padding: 30px;
   padding: 100px 20px 20px 30px;
   grid-area: secQ2;
@@ -268,6 +285,9 @@ header h1 {
 .secQ2 nav ul a {
   color: white;
 }
+.secQ2 nav ul a:hover {
+  transform: scale(1.1);
+}
 
 .secQ3 {
   grid-area: secQ3;
@@ -276,44 +296,84 @@ header h1 {
 }
 .secQ3 h2 {
   padding-left: 300px;
+  animation-name: desplazamiento;
+  animation-duration: 2s;
+  overflow: hidden;
 }
 
 .secQ4 {
   grid-area: secQ4;
 }
+.secQ4:hover {
+  transform: scale(1.1);
+}
 
 .secQ5 {
   grid-area: secQ5;
+}
+.secQ5:hover {
+  transform: scale(1.1);
 }
 
 .secQ6 {
   grid-area: secQ6;
 }
+.secQ6:hover {
+  transform: scale(1.1);
+}
 
 .secQ7 {
   grid-area: secQ7;
+}
+.secQ7:hover {
+  transform: scale(1.1);
 }
 
 .secQ8 {
   grid-area: secQ8;
 }
+.secQ8:hover {
+  transform: scale(1.1);
+}
 
 .secQ9 {
   grid-area: secQ9;
 }
+.secQ9:hover {
+  transform: scale(1.1);
+}
 
 .secQ10 {
   grid-area: secQ10;
+  margin-top: -30px;
   padding: 0px 30px 20px 5px;
 }
 .secQ10 h2 {
-  padding-left: 230px;
+  padding-left: 100px;
+  padding-top: 0px;
+  animation-name: desplazamiento;
+  animation-duration: 2s;
 }
 
 .redondeo2 {
   width: 100px;
   height: 90px;
   border-radius: 50%;
+}
+
+.paraDiv {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lup {
+  background-color: #E2D8EC;
+  border: 2px solid black;
+  display: flex;
+  padding: 20px 30px 20px 30px;
+  width: 90%;
 }
 
 /*TERMINA CSS QUIENES SOMOS*/
@@ -331,23 +391,22 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
   padding: 25px 10px 10px 10px;
   border-bottom: 2px solid #172643;
   padding: 200px 30px 10px 10px;
   grid-area: secA1;
 }
 .secA1 nav ul li {
-  padding: 20px;
   color: black;
-  padding: 30px;
+  padding: 30px 20px 10px 0px;
 }
 
 .secA2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
   padding: 30px;
   padding: 100px 20px 20px 30px;
   grid-area: secA2;
@@ -358,6 +417,9 @@ header h1 {
 .secA2 nav ul li a {
   color: white;
 }
+.secA2 nav ul li a:hover {
+  transform: scale(1.1);
+}
 
 .secA3 {
   grid-area: secA3;
@@ -365,6 +427,9 @@ header h1 {
 .secA3 h2 {
   font-weight: bold;
   font-family: "Rubik", sans-serif;
+  position: relative;
+  animation-name: desplazamiento;
+  animation-duration: 2s;
 }
 
 .secA4 {
@@ -409,7 +474,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
   padding: 25px 10px 10px 10px;
   border-bottom: 2px solid #172643;
   padding: 100px 40px 50px 10px;
@@ -425,7 +490,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: hsla(271, 42%, 78%, 0.863);
+  background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
   padding: 30px;
   padding: 100px 20px 20px 30px;
   grid-area: secC2;
@@ -436,9 +501,17 @@ header h1 {
 .secC2 nav ul li a {
   color: white;
 }
+.secC2 nav ul li a:hover {
+  transform: scale(1.1);
+}
 
 .secC3 {
   grid-area: secC3;
+}
+.secC3 h2 {
+  position: relative;
+  animation-name: desplazamiento;
+  animation-duration: 2s;
 }
 
 .secC4 {
@@ -459,6 +532,9 @@ header h1 {
 .secC6 {
   grid-area: secC6;
 }
+.secC6 iframe {
+  width: 800px;
+}
 
 section fieldset legend {
   font-size: 25px;
@@ -470,7 +546,7 @@ section fieldset legend {
 }
 
 .dudas {
-  width: 100% px;
+  width: 100%;
   height: 150px;
 }
 
@@ -519,13 +595,12 @@ a {
   font-size: 15px;
 }
 
-.paraIconosNav {
+.paraIconosNav, .paraIconosNav2 {
   list-style: none;
   font-size: 20px;
 }
 
 .paraIconosNav2 {
-  list-style: none;
   font-size: 18px;
 }
 
@@ -568,8 +643,8 @@ footer section div h2 {
   .secM5 {
     padding-left: 0px;
   }
-  .list iframe {
-    width: 600px;
+  .secM5 ul li iframe {
+    width: 700px;
   }
   .secM3 h2 {
     padding-left: 210px;
@@ -585,7 +660,65 @@ footer section div h2 {
   }
 }
 /*TERMINA CONTACTO 1024*/
+/*EMPIEZA QUIENES-SOMOS 1024*/
+@media (max-width: 1024px) {
+  .secQ3 h2 {
+    padding-left: 200px;
+  }
+  .secQ10 {
+    margin-top: -60px;
+  }
+  .secQ10 h2 {
+    padding-left: 50px;
+  }
+}
 /*TERMINA QUE-ES-LA-MEDIACION 1024*/
+/*EMPIEZA INDEX 1024*/
+@media (max-width: 1024px) {
+  .sec5 {
+    width: 700px;
+  }
+  .sec3 {
+    height: 20px;
+    display: flex;
+    padding: 0px;
+    margin-left: 100px;
+    margin-top: -41px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .sec4 {
+    display: flex;
+    padding: 0px;
+    height: 250px;
+    margin: 50px -350px;
+    width: 150px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .sec7 {
+    margin-top: 0px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 0px;
+    height: 70px;
+    flex-direction: column-reverse;
+  }
+  .cards {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+    margin-left: 0px;
+  }
+}
 /*EMPIEZA INDEX TABLET*/
 @media (max-width: 768px) {
   header {
@@ -644,16 +777,19 @@ footer section div h2 {
   .sec3 {
     height: 20px;
     display: flex;
-    padding: 0px 0px 0px;
+    padding: 120px 260px 29px;
+    margin: 0px;
   }
   .sec4 {
     display: flex;
-    padding: 0px 0px 0px 340px;
-    margin-top: 112px;
+    padding: 0px 10px 200px 300px;
+    margin-top: 0px;
+    margin: -51px -349px;
     height: 250px;
     width: 150px;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .sec5 {
     display: flex;
@@ -664,10 +800,24 @@ footer section div h2 {
     margin-top: 0px;
     padding: 5px 0px;
     margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 90px;
     display: flex;
     flex-direction: column-reverse;
     height: 70px;
     align-items: baseline;
+  }
+  .cards {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+    margin-left: 120px;
   }
 }
 /*TERMINA TABLET INDEX*/
@@ -727,6 +877,7 @@ footer section div h2 {
   }
   .secQ10 h2 {
     padding-left: 100px;
+    margin-top: 50px;
   }
   .secQ10 div {
     margin-left: 70px;
@@ -959,7 +1110,7 @@ footer section div h2 {
 /*EMPIEZA QUE-ES-LA-MEDIACION 425*/
 @media (max-width: 425px) {
   header {
-    max-width: 100%;
+    width: 100%;
   }
   .grid3 {
     display: flex;
@@ -1035,6 +1186,7 @@ footer section div h2 {
   .secC2 {
     display: flex;
     height: 200px;
+    justify-content: flex-end;
   }
   .secC2 nav {
     display: flex;
@@ -1052,15 +1204,262 @@ footer section div h2 {
   }
   .secC2 nav ul li {
     padding: 0;
-    margin-left: 70px;
+    margin-left: 100px;
+    margin-bottom: 10px;
   }
   .secC2 nav ul li a {
     font-size: 16px;
   }
   .secC6 iframe {
     width: 400px;
+    margin-left: 0px;
   }
 }
+/*EMPIEZA INDEX 425*/
+@media (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .grid1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .sec1 {
+    display: flex;
+    height: 52px;
+  }
+  .sec1 nav ul {
+    gap: 10px;
+  }
+  .sec1 nav ul li {
+    margin: 0px 10px 10px;
+  }
+  .sec1 nav ul li a {
+    font-size: 20px;
+  }
+  .sec2 {
+    display: flex;
+    height: 200px;
+  }
+  .sec2 nav {
+    display: flex;
+  }
+  .sec2 nav ul {
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    width: 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec2 nav ul li {
+    padding: 0;
+    margin: 5px 75px 10px;
+  }
+  .sec2 nav ul li a {
+    font-size: 16px;
+  }
+  .sec3 {
+    height: 150px;
+    margin: -60px 0px 20px -200px;
+  }
+  .sec4 {
+    margin: 5px 10px 60px 60px;
+    padding: 0px;
+  }
+  .sec5 {
+    width: 400px;
+  }
+  .sec6 {
+    height: 0px;
+    width: 0px;
+  }
+  .sec8 {
+    height: 0px;
+    width: 0px;
+  }
+  .sec7 {
+    margin: 5px 10px 0px 60px;
+  }
+  .cards {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+  }
+  footer {
+    background-color: #906AB6;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+  }
+}
+/*TERMINA INDEX 425*/
+/*EMPIEZA QUIENES-SOMOS 425*/
+@media (max-width: 425px) {
+  header {
+    max-width: 100%;
+  }
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .secQ1 {
+    display: flex;
+    height: 52px;
+  }
+  .secQ1 nav ul {
+    gap: 10px;
+  }
+  .secQ1 nav ul li {
+    margin: 0px 10px 10px;
+  }
+  .secQ1 nav ul li a {
+    font-size: 20px;
+  }
+  .secQ2 {
+    display: flex;
+    height: 200px;
+  }
+  .secQ2 nav {
+    display: flex;
+  }
+  .secQ2 nav ul {
+    flex-direction: column;
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    width: 0px;
+    margin-left: 140px;
+    gap: 10px;
+    display: flex;
+  }
+  .secQ2 nav ul li {
+    padding: 0;
+    margin: 5px 25px 10px;
+  }
+  .secQ2 nav ul li a {
+    font-size: 16px;
+  }
+  .secQ3 h2 {
+    padding-left: 100px;
+  }
+  .secQ3 div {
+    margin-left: 10px;
+  }
+  .secQ10 h2 {
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  .secQ4 {
+    padding-bottom: 20px;
+  }
+  .secQ5 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  .secQ6 {
+    padding-bottom: 20px;
+  }
+  .secQ7 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  .secQ8 {
+    padding-bottom: 20px;
+  }
+  .secQ9 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  .secQ10 div {
+    margin-left: 10px;
+    padding-bottom: 20px;
+  }
+}
+/*TERMINA QUIENES-SOMOS 425*/
+/*EMPIEZA ACTIVIDADES 425*/
+@media (max-width: 425px) {
+  header {
+    max-width: 100%;
+  }
+  .grid4 {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+  }
+  .secA1 {
+    display: flex;
+    height: 52px;
+  }
+  .secA1 nav ul {
+    gap: 10px;
+  }
+  .secA1 nav ul li {
+    margin: 0px 10px 10px;
+  }
+  .secA1 nav ul li a {
+    font-size: 20px;
+  }
+  .secA2 {
+    display: flex;
+    height: 200px;
+  }
+  .secA2 nav {
+    display: flex;
+  }
+  .secA2 nav ul {
+    flex-direction: column;
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    width: 0px;
+    gap: 10px;
+    display: flex;
+  }
+  .secA2 nav ul li {
+    padding: 0;
+    margin-left: 100px;
+  }
+  .secA2 nav ul li a {
+    font-size: 16px;
+  }
+  .secA3 h2 {
+    padding: 20px 0px 0px 60px;
+  }
+  .secA5 {
+    height: auto;
+  }
+  .cambio {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .col-4 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .col-8 {
+    padding-left: 10px;
+  }
+}
+/*TERMINA ACTIVIDADES 425*/
 /*INDEX MOBILE*/
 @media (max-width: 320px) {
   header {
@@ -1107,12 +1506,18 @@ footer section div h2 {
   .sec2 nav ul li a {
     font-size: 16px;
   }
+  .sec5 {
+    width: 280px;
+    height: 290px;
+  }
   .sec3 {
     height: 150px;
-    margin: 5px 10px 50px 10px;
+    margin-left: -250px;
+    margin-bottom: -50px;
+    margin-top: -50px;
   }
   .sec4 {
-    margin: 5px 10px 35px 10px;
+    margin: 80px 0px 65px 11px;
     padding: 0px;
   }
   .sec6 {
@@ -1184,6 +1589,7 @@ footer section div h2 {
     padding: 0px;
     border: 0px;
     height: 50px;
+    margin-left: 100px;
     width: 0px;
     gap: 10px;
     display: flex;
@@ -1203,6 +1609,7 @@ footer section div h2 {
   }
   .secQ10 h2 {
     padding-left: 20px;
+    margin-top: 70px;
   }
   .secQ4 {
     padding-bottom: 20px;
@@ -1341,7 +1748,7 @@ footer section div h2 {
   }
   .secA2 nav ul li {
     padding: 0;
-    margin-left: 20px;
+    margin-left: 55px;
   }
   .secA2 nav ul li a {
     font-size: 16px;
@@ -1413,13 +1820,14 @@ footer section div h2 {
   }
   .secC2 nav ul li {
     padding: 0px;
-    margin-left: 20px;
+    margin-left: 60px;
   }
   .secC2 nav ul li a {
     font-size: 16px;
   }
   .secC6 iframe {
     width: 300px;
+    margin-left: -1px;
   }
 }
 /*TERMINA CONTACTO MOBILE*//*# sourceMappingURL=style.css.map */

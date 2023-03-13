@@ -33,6 +33,9 @@
                 padding: 30px 20px;
                 a{
                     color: white;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
@@ -40,6 +43,11 @@
 }
 .secC3{
     grid-area: secC3;
+    h2{
+        position: relative;
+        animation-name: desplazamiento;
+        animation-duration: 2s;
+    }
 }
 .secC4{
     grid-area: secC4;
@@ -55,6 +63,9 @@
 }
 .secC6{
     grid-area: secC6;
+            iframe{
+                width: 800px;
+            }
 }
 section{
     fieldset{
@@ -68,7 +79,7 @@ section{
     font-size: 15px;
 }
 .dudas{
-    width: 100%px;
+    width: 100%;
     height: 150px;
 }
 .bold{

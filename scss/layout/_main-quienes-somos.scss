@@ -1,17 +1,4 @@
 /*EMPIEZA CSS QUIENES SOMOS*/
-.paraDiv{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-.lup{
-    background-color: #E2D8EC;
-    border: 2px solid black;
-    display: flex;
-    padding: 20px 30px 20px 30px;
-    width: 90%;
-}
 .grid2{
     @include grid;
     grid-template-areas:
@@ -51,6 +38,9 @@
             }
                 a{
                     color: white;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
                 }
         }
     }
@@ -61,36 +51,74 @@
     flex-direction: column;
         h2{
             padding-left: 300px;
+            animation-name: desplazamiento;
+            animation-duration: 2s;
+            overflow: hidden;
         }
 }
 .secQ4{
     grid-area: secQ4;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 .secQ5{
     grid-area: secQ5;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 .secQ6{
     grid-area: secQ6;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 .secQ7{
     grid-area: secQ7;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 .secQ8{
     grid-area: secQ8;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 .secQ9{
     grid-area: secQ9;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 .secQ10{
     grid-area: secQ10;
+    margin-top: -30px;
     padding: 0px 30px 20px 5px;
     h2{
-        padding-left: 230px;
+        padding-left: 100px;
+        padding-top: 0px;
+        animation-name: desplazamiento;
+        animation-duration: 2s;
     }
 }
 .redondeo2{
     width: 100px;
     height:90px ;
     border-radius: 50%; 
+}
+.paraDiv{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.lup{
+    background-color: #E2D8EC;
+    border: 2px solid black;
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    width: 90%;
 }
 /*TERMINA CSS QUIENES SOMOS*/

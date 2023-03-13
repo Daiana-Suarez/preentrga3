@@ -37,6 +37,9 @@
                 padding: 30px 20px;
                 a{
                     color: white;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
@@ -50,8 +53,21 @@
         padding-top: 50px;
         font-family: 'Rubik', sans-serif;
         font-weight: bold;
+        position: relative;
+        animation-name: desplazamiento;
+        animation-duration: 2s;
     }
 }
+@keyframes desplazamiento {
+    from{
+        margin-left: 100%;
+        width: 100%;
+    }
+    to{
+        margin-left:0%;
+    }
+}
+
 .paraImg13{
     background-color: #E2D8EC;
     border: 2px solid black;
@@ -69,6 +85,13 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
     padding-left: 150px;
+    ul{
+        li{
+            iframe{
+                width: 800px;
+            }
+        }
+    }
 }
 .secM7{
     grid-area: secM7;

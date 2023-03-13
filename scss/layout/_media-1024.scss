@@ -5,10 +5,12 @@
     }
 .secM5{
     padding-left: 0px;
-}
-.list{
-    iframe {
-        width: 600px;
+    ul{
+        li{
+            iframe{
+                width: 700px;
+            }
+        }
     }
 }
 .secM3{
@@ -30,4 +32,65 @@
 }
 }
 /*TERMINA CONTACTO 1024*/
+/*EMPIEZA QUIENES-SOMOS 1024*/
+@media (max-width: 1024px) {
+.secQ3{
+    h2{
+        padding-left: 200px;
+    }
+}
+.secQ10{
+    margin-top: -60px;
+    h2{
+        padding-left: 50px;
+    }
+}
+}
 /*TERMINA QUE-ES-LA-MEDIACION 1024*/
+/*EMPIEZA INDEX 1024*/
+ @media (max-width: 1024px) {
+    .sec5{
+        width: 700px;
+    }
+    .sec3{
+    height: 20px;
+    display: flex;
+    padding: 0px;
+    margin-left: 100px;
+    margin-top: -41px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    }
+    .sec4{
+        display: flex;
+        padding: 0px;
+        height: 250px;
+        margin: 50px -350px;
+        width: 150px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .sec7{
+        margin-top: 0px;
+        padding: 5px 0px;
+        margin-bottom: 10px;
+        display: flex;
+        margin-top: 0px;
+        height: 70px;
+        flex-direction: column-reverse;
+    }
+    .cards{
+        display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+    margin-left:0px;
+    }
+ }
+

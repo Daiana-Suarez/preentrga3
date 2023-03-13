@@ -31,7 +31,7 @@ a{
     font-size: 20px;
 }
 .paraIconosNav2 {
-    list-style: none;
+    @extend .paraIconosNav;
     font-size: 18px;
 }
 .cuadradoAzul{
