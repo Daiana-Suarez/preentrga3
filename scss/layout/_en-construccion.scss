@@ -1,0 +1,82 @@
+
+/* EMPIEZA CSS EN CONSTRUCCION*/
+
+.grid6{
+    @include grid;
+    grid-template-areas: 
+    "secE1 sec6 secE3 secE3 secE3"
+    "secE1 sec6 secE3 secE3 secE3"
+    "secE2 sec6 secE3 secE3 secE3"
+    "secE2 sec6 secE4 secE4 secE4"
+    "secE2 sec6 secE4 secE4 secE4"
+    ;
+}
+.secE1{
+    @include sec1;
+    padding: 50px 30px 10px 10px;
+    grid-area: secE1;
+    nav{
+        ul{
+            li{
+                color: black;
+                padding: 30px 20px 10px 0px;
+            }
+        }
+    }
+}
+.secE2{
+    @include sec2;
+    padding: 100px 20px 20px 30px;
+    grid-area: secE2;
+    nav{
+        ul{
+            li{
+                padding: 30px 20px;
+                    a{
+                        color: white;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secE3{
+        grid-area: secE3;
+        h2{
+            font-size: 80px;
+            font-weight: lighter;
+            margin-top: 20px;
+
+        }
+        p{
+            font-size: 60px;
+            padding-top: 150px;
+            margin-top: 10px;
+        }
+    }
+    .secE4{
+        grid-area: secE4;
+        img{
+            padding-left: 400px;
+            height: 300px;
+        }
+    }
+    .swing{
+        animation-name: swing;
+        -webkit-animation-name: swing;
+        -moz-animation-name: swing;
+        animation-duration: 10s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    }
+    
+        @keyframes swing {
+            20% {transform: rotate3d(0, 0, 1, 15deg);}
+            40% {transform: rotate3d(0, 0, 1, -10deg);}
+            60% {transform: rotate3d(0, 0, 1, 5deg);}
+            80% {transform: rotate3d(0, 0, 1, -5deg);}
+            to  {transform: rotate3d(0, 0, 1, 0deg);}
+        }
+      /* TERMINA CSS EN CONSTRUCCION*/

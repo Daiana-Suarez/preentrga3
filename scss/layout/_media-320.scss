@@ -25,6 +25,7 @@
 }
 .sec2{
     display:flex;
+    width: 100%;
     height: 200px;
     nav{
         display: flex;
@@ -383,3 +384,86 @@ footer {
 }
 }
 /*TERMINA CONTACTO MOBILE*/
+/*EMPIEZA EN-CONSTRUCCION MOBILE*/
+@media (max-width: 320px) {
+        header{
+            width: 100%;
+        }
+    .grid6{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .secE1{
+        display:flex;
+        height: 52px;
+        nav{
+            ul{
+                gap: 10px;
+                display: flex;
+                margin-top: -30px;
+                margin-left: 45px;
+                li{
+                    margin: 0px 10px 10px;
+                    img{
+                        width: 0px;
+                        height: 0px;
+                        a{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secE2{
+        display:flex;
+        height: 200px;
+        nav{
+            display: flex;
+            ul{
+                flex-direction: column;
+                padding: 0px;
+                border: 0px;
+                height: 50px;
+                margin-left: 100px;
+                margin-top: 0px;
+                width: 0px;
+                gap: 10px;
+                display: flex;
+                li{
+                    padding: 0;
+                    margin: 5px 25px 10px;
+                    a{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+.secE3{
+    h2{
+    font-size: 48px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+    flex-direction: column;
+    }
+    p{
+        font-size: 40px;
+        padding-top: 50px;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+}
+.swing{
+    img{
+    padding-left: 0px;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
+    }
+}
+}
+/*TERMINA EN-CONSTRUCCION MOBILE*/

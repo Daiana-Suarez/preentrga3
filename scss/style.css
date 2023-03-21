@@ -18,10 +18,13 @@ header {
 }
 
 .grid1 {
+  background-image: url("../assets/img/acuarela.jpeg");
+  background-position: center;
   display: grid;
   width: 100%;
   grid-template-columns: 200px 50px repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  background-repeat: in;
   grid-template-areas: "sec1 sec6 sec5 sec5 sec5" "sec1 sec6 sec5 sec5 sec5" "sec2 sec6 sec8 sec8 sec8" "sec2 sec6 sec7 sec3 sec4" "sec2 sec6 sec7 sec3 sec4";
 }
 
@@ -87,13 +90,11 @@ header {
 }
 
 .sec6 {
-  background-color: white;
   height: 100%;
   width: 100%;
 }
 
 .sec8 {
-  background-color: white;
   height: 100%;
   width: 100%;
 }
@@ -131,6 +132,8 @@ header {
 /*MAIN Q-E-L-M*/
 /* EMPIEZA CSS QUE ES LA MEDIACION*/
 .grid3 {
+  background-image: url("../assets/img/acuarela.jpeg");
+  background-position: center;
   display: grid;
   width: 100%;
   grid-template-columns: 200px 50px repeat(3, 1fr);
@@ -242,6 +245,8 @@ header {
 /*MAIN Q-S*/
 /*EMPIEZA CSS QUIENES SOMOS*/
 .grid2 {
+  background-image: url("../assets/img/acuarela.jpeg");
+  background-position: center;
   display: grid;
   width: 100%;
   grid-template-columns: 200px 50px repeat(3, 1fr);
@@ -380,6 +385,8 @@ header {
 /*MAIN ACTIVIDADES*/
 /* EMPIEZA CSS ACTIVIDADES*/
 .grid4 {
+  background-image: url("../assets/img/acuarela.jpeg");
+  background-position: center;
   display: grid;
   width: 100%;
   grid-template-columns: 200px 50px repeat(3, 1fr);
@@ -463,6 +470,9 @@ header {
 /*MAIN CONTACTO*/
 /* EMPIEZA CSS CONTACTO*/
 .grid5 {
+  background-image: url(../base/19335224_6081654.jpg);
+  background-image: url("../assets/img/acuarela.jpeg");
+  background-position: center;
   display: grid;
   width: 100%;
   grid-template-columns: 200px 50px repeat(3, 1fr);
@@ -559,6 +569,101 @@ section fieldset legend {
 }
 
 /* TERMINA CSS CONTACTO*/
+/*PAGINA EN CONSTRUCCION*/
+/* EMPIEZA CSS EN CONSTRUCCION*/
+.grid6 {
+  background-image: url("../assets/img/acuarela.jpeg");
+  background-position: center;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 200px 50px repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas: "secE1 sec6 secE3 secE3 secE3" "secE1 sec6 secE3 secE3 secE3" "secE2 sec6 secE3 secE3 secE3" "secE2 sec6 secE4 secE4 secE4" "secE2 sec6 secE4 secE4 secE4";
+}
+
+.secE1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right top, #e2d8ec, #dbcde7, #d4c3e2, #ceb8dd, #c8add8, #c6a6d9, #c39fda, #c098db, #bf94e3, #bd90ec, #b98cf5, #b489ff);
+  padding: 25px 10px 10px 10px;
+  border-bottom: 2px solid #172643;
+  padding: 50px 30px 10px 10px;
+  grid-area: secE1;
+}
+.secE1 nav ul li {
+  color: black;
+  padding: 30px 20px 10px 0px;
+}
+
+.secE2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: radial-gradient(circle, #b489ff, #b98cf5, #bd90ec, #bf94e3, #c098db, #c39fda, #c6a6d9, #c8add8, #ceb8dd, #d4c3e2, #dbcde7, #e2d8ec);
+  padding: 30px;
+  padding: 100px 20px 20px 30px;
+  grid-area: secE2;
+}
+.secE2 nav ul li {
+  padding: 30px 20px;
+}
+.secE2 nav ul li a {
+  color: white;
+}
+.secE2 nav ul li a:hover {
+  transform: scale(1.1);
+}
+
+.secE3 {
+  grid-area: secE3;
+}
+.secE3 h2 {
+  font-size: 80px;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.secE3 p {
+  font-size: 60px;
+  padding-top: 150px;
+  margin-top: 10px;
+}
+
+.secE4 {
+  grid-area: secE4;
+}
+.secE4 img {
+  padding-left: 400px;
+  height: 300px;
+}
+
+.swing {
+  animation-name: swing;
+  -webkit-animation-name: swing;
+  -moz-animation-name: swing;
+  animation-duration: 10s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+/* TERMINA CSS EN CONSTRUCCION*/
 /*CLASES GENERICAS*/
 p {
   font-family: "Rubik", sans-serif;
@@ -719,6 +824,21 @@ footer section div h2 {
     margin-left: 0px;
   }
 }
+/*EMPIEZA EN-CONSTRUCCION 1024*/
+@media (max-width: 1024px) {
+  .secE3 p {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+  .swing img {
+    padding-left: 200px;
+    width: 400px;
+    height: 300px;
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+}
+/*TERMINA EN-CONSTRUCCION 1024*/
 /*EMPIEZA INDEX TABLET*/
 @media (max-width: 768px) {
   header {
@@ -1107,6 +1227,73 @@ footer section div h2 {
 }
 
 /*TERMINA CONTACTO TABLET*/
+/*EMPIEZA EN-CONSTRUCCION TABLET*/
+/*EMPIEZA INDEX TABLET*/
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .grid6 {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+  }
+  .secE1 {
+    height: 50px;
+  }
+  .secE1 nav ul {
+    display: flex;
+  }
+  .secE1 nav ul li {
+    padding: 0;
+    margin: -30px 90px 0px 90px;
+  }
+  .secE1 nav ul li img {
+    height: 0px;
+    width: 0px;
+  }
+  .secE2 {
+    padding: 0px;
+  }
+  .secE2 nav {
+    display: flex;
+  }
+  .secE2 nav ul {
+    display: flex;
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    width: 0px;
+  }
+  .secE2 nav ul li {
+    padding: 0;
+    margin: 5px 60px 0px 50px;
+    width: 50px;
+    display: flex;
+  }
+  .secE2 nav ul li a {
+    font-size: 16px;
+  }
+}
+.secE3 h2 {
+  text-align: center;
+  font-size: 70px;
+}
+.secE3 p {
+  font-size: 30px;
+  margin-top: -60px;
+  margin-left: 5px;
+}
+
+.swing img {
+  margin-top: 60px;
+  margin-left: 70px;
+  width: 350px;
+  height: 200px;
+}
+
+/*TERMINA EN-CONSTRUCCION TABLET*/
 /*EMPIEZA QUE-ES-LA-MEDIACION 425*/
 @media (max-width: 425px) {
   header {
@@ -1460,6 +1647,62 @@ footer section div h2 {
   }
 }
 /*TERMINA ACTIVIDADES 425*/
+/*EMPIEZA EN-CONSTRUCCION 425*/
+@media (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .grid6 {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+  }
+  .secE1 {
+    display: flex;
+    height: 52px;
+  }
+  .secE1 nav ul li {
+    margin: -30px 30px 0px 50px;
+  }
+  .secE1 nav ul li a {
+    font-size: 20px;
+  }
+  .secE2 {
+    display: flex;
+    height: 200px;
+  }
+  .secE2 nav {
+    display: flex;
+  }
+  .secE2 nav ul {
+    flex-direction: column;
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    width: 0px;
+    gap: 10px;
+    display: flex;
+  }
+  .secE2 nav ul li {
+    padding: 0;
+    margin-left: 138px;
+  }
+  .secE2 nav ul li a {
+    font-size: 16px;
+  }
+  .secE3 h2 {
+    font-size: 60px;
+  }
+  .secE3 p {
+    margin-left: 20px;
+  }
+  .swing img {
+    margin-left: -60px;
+    width: 320px;
+    height: 170px;
+  }
+}
+/*TERMINA EN-CONSTRUCCION 425*/
 /*INDEX MOBILE*/
 @media (max-width: 320px) {
   header {
@@ -1485,6 +1728,7 @@ footer section div h2 {
   }
   .sec2 {
     display: flex;
+    width: 100%;
     height: 200px;
   }
   .sec2 nav {
@@ -1830,4 +2074,81 @@ footer section div h2 {
     margin-left: -1px;
   }
 }
-/*TERMINA CONTACTO MOBILE*//*# sourceMappingURL=style.css.map */
+/*TERMINA CONTACTO MOBILE*/
+/*EMPIEZA EN-CONSTRUCCION MOBILE*/
+@media (max-width: 320px) {
+  header {
+    width: 100%;
+  }
+  .grid6 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .secE1 {
+    display: flex;
+    height: 52px;
+  }
+  .secE1 nav ul {
+    gap: 10px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 45px;
+  }
+  .secE1 nav ul li {
+    margin: 0px 10px 10px;
+  }
+  .secE1 nav ul li img {
+    width: 0px;
+    height: 0px;
+  }
+  .secE1 nav ul li img a {
+    font-size: 20px;
+  }
+  .secE2 {
+    display: flex;
+    height: 200px;
+  }
+  .secE2 nav {
+    display: flex;
+  }
+  .secE2 nav ul {
+    flex-direction: column;
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 0px;
+    width: 0px;
+    gap: 10px;
+    display: flex;
+  }
+  .secE2 nav ul li {
+    padding: 0;
+    margin: 5px 25px 10px;
+  }
+  .secE2 nav ul li a {
+    font-size: 16px;
+  }
+  .secE3 h2 {
+    font-size: 48px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+    flex-direction: column;
+  }
+  .secE3 p {
+    font-size: 40px;
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+  .swing img {
+    padding-left: 0px;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+}
+/*TERMINA EN-CONSTRUCCION MOBILE*//*# sourceMappingURL=style.css.map */

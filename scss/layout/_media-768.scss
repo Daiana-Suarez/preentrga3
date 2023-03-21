@@ -397,3 +397,74 @@ margin-left: 120px;
     }
 }
 /*TERMINA CONTACTO TABLET*/
+/*EMPIEZA EN-CONSTRUCCION TABLET*/
+/*EMPIEZA INDEX TABLET*/
+@media (max-width: 768px){
+    header{
+        width: 100%;
+    }
+.grid6{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+}
+.secE1{
+    height: 50px;
+    nav {
+        ul {
+            display: flex;
+            li{
+                padding: 0;
+                margin: -30px 90px 0px 90px;
+                img{
+                    height: 0px;
+                    width: 0px;
+                } 
+            }
+        }
+    }
+}
+.secE2{
+    padding: 0px;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            margin: 0px 0px 0px 50px;
+            padding: 0px;
+            border: 0px;
+            height: 50px;
+            width: 0px;
+            li{
+                padding: 0;
+                margin: 5px 60px 0px 50px;
+                width: 50px;
+                display: flex;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+}
+.secE3{
+    h2{
+        text-align: center;
+        font-size: 70px;
+    }
+    p{
+        font-size: 30px;
+        margin-top: -60px;
+        margin-left: 5px;
+    }
+}
+.swing{
+    img{
+        margin-top: 60px;
+        margin-left: 70px;
+        width: 350px;
+        height: 200px;
+    }
+}
+/*TERMINA EN-CONSTRUCCION TABLET*/

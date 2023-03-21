@@ -1,5 +1,7 @@
 /*mixins*/
 @mixin grid{
+    background-image: url("../assets/img/acuarela.jpeg");
+    background-position: center;
     display: grid;
     width: 100%;
     grid-template-columns: 200px 50px repeat(3, 1fr);

@@ -92,5 +92,24 @@
     gap: 20px;
     margin-left:0px;
     }
- }
+}
+/*EMPIEZA EN-CONSTRUCCION 1024*/
+@media (max-width: 1024px) {
+.secE3{
+    p{
+        font-size: 40px;
+        margin-top: -20px;
+    }
+}
+.swing{
+    img{
+        padding-left: 200px;
+        width: 400px;
+        height: 300px;
+        margin-top: -40px;
+        margin-left: 50px;
+        }
+    }
+}
+/*TERMINA EN-CONSTRUCCION 1024*/
 
