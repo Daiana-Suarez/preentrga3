@@ -6,7 +6,8 @@
 .grid1{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 .sec1{
     display:flex;
@@ -28,6 +29,7 @@
     height: 200px;
     nav{
         display: flex;
+        height: 200px;
         ul{
             flex-direction: column;
             padding: 0px;
@@ -36,7 +38,6 @@
             width: 0px;
             gap: 10px;
             display: flex;
-            justify-content: flex-end;
             margin-left: 67px;
             li{
                 padding: 0px;
@@ -412,7 +413,8 @@ footer {
     .grid6{
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        width: 100%;
+        height: auto;
     }
     .secE1{
         display:flex;
@@ -441,6 +443,7 @@ footer {
         height: 200px;
         nav{
             display: flex;
+            height: 200px;
             ul{
                 flex-direction: column;
                 padding: 0px;
@@ -449,7 +452,6 @@ footer {
                 width: 0px;
                 gap: 10px;
                 display: flex;
-                justify-content: flex-end;
                 margin-left: 67px;
                 li{
                     padding: 0px;

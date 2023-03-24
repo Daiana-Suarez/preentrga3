@@ -2068,7 +2068,8 @@ footer section div h2 {
   .grid1 {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
   .sec1 {
     display: flex;
@@ -2089,6 +2090,7 @@ footer section div h2 {
   }
   .sec2 nav {
     display: flex;
+    height: 200px;
   }
   .sec2 nav ul {
     flex-direction: column;
@@ -2098,7 +2100,6 @@ footer section div h2 {
     width: 0px;
     gap: 10px;
     display: flex;
-    justify-content: flex-end;
     margin-left: 67px;
   }
   .sec2 nav ul li {
@@ -2450,7 +2451,8 @@ footer section div h2 {
   .grid6 {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
   .secE1 {
     display: flex;
@@ -2478,6 +2480,7 @@ footer section div h2 {
   }
   .secE2 nav {
     display: flex;
+    height: 200px;
   }
   .secE2 nav ul {
     flex-direction: column;
@@ -2487,7 +2490,6 @@ footer section div h2 {
     width: 0px;
     gap: 10px;
     display: flex;
-    justify-content: flex-end;
     margin-left: 67px;
   }
   .secE2 nav ul li {
