@@ -1,0 +1,53 @@
+@media (max-width: 1170px){
+    header{
+        width: 100%;
+    }
+    .grid1{
+        width: 1170px;
+    }
+    .sec5{
+        width: 800px;
+    }
+    .sec3{
+        height: 20px;
+        display: flex;
+        padding: 0px;
+        margin-left: 100px;
+        margin-top: -41px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        }
+        .sec4{
+            display: flex;
+            padding: 0px;
+            height: 250px;
+            margin: 50px -350px;
+            width: 150px;
+            align-items: flex-end;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+        .sec7{
+            margin-top: 0px;
+            padding: 5px 0px;
+            margin-bottom: 10px;
+            display: flex;
+            margin-top: 0px;
+            height: 70px;
+            margin-left: -10px;
+            flex-direction: column-reverse;
+        }
+    .secM1{
+        nav{
+            ul{
+                li{
+                    padding-top: 70px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    padding-bottom: 0px;
+                }
+            }
+        }
+        
+    }
+}

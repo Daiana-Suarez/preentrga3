@@ -20,11 +20,21 @@
 @import "./layout/clases-genericas";
 /*FOOTER*/
 @import "./layout/footer";
+// /*MQ 1440*/
+@import "./layout/media-1440";
+// /*MQ 1280*/
+@import "./layout/media-1280";
+// /*MQ 1170*/
+@import "./layout/media-1170";
 // /*MQ 1024*/
 @import "./layout/media-1024";
 // /*MQ 768*/
 @import "./layout/media-768";
+// /*MQ 1024*/
+@import "./layout/media-720";
 // /*MQ 425*/
 @import "./layout/media-425";
+// /*MQ 375*/
+@import "./layout/media-375";
 // /*MQ 320*/
 @import "./layout/media-320";

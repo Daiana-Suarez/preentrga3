@@ -1,6 +1,5 @@
 
 /* EMPIEZA CSS EN CONSTRUCCION*/
-
 .grid6{
     @include grid;
     grid-template-areas: 
@@ -48,7 +47,6 @@
             font-size: 80px;
             font-weight: lighter;
             margin-top: 20px;
-
         }
         p{
             font-size: 60px;
@@ -59,11 +57,19 @@
     .secE4{
         grid-area: secE4;
         img{
-            padding-left: 400px;
-            height: 300px;
+            width: 600px;
+            object-fit: contain;
+            height: 400px;
+            margin-left: 10px;
         }
     }
     .swing{
+        img{
+            width: 400px;
+            object-fit: contain;
+            height: 400px;
+            margin-left: 300px;
+        }
         animation-name: swing;
         -webkit-animation-name: swing;
         -moz-animation-name: swing;
@@ -71,7 +77,6 @@
         -webkit-animation-duration: 2s;
         -moz-animation-duration: 2s;
     }
-    
         @keyframes swing {
             20% {transform: rotate3d(0, 0, 1, 15deg);}
             40% {transform: rotate3d(0, 0, 1, -10deg);}
@@ -79,4 +84,4 @@
             80% {transform: rotate3d(0, 0, 1, -5deg);}
             to  {transform: rotate3d(0, 0, 1, 0deg);}
         }
-      /* TERMINA CSS EN CONSTRUCCION*/
+/* TERMINA CSS EN CONSTRUCCION*/

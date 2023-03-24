@@ -15,7 +15,7 @@
             display: flex;
             li{
                 padding: 0;
-                margin: 0px 90px 100px 90px;
+                margin: -10px 90px 100px 90px;
                 img{
                     height: 0px;
                     width: 0px;
@@ -120,7 +120,7 @@ margin-left: 120px;
             display: flex;
             li{
                 padding: 0;
-                margin: 0px 90px 100px 90px;
+                margin: 12px 90px 100px 90px;
                 img{
                     height: 0px;
                     width: 0px;
@@ -294,7 +294,7 @@ margin-left: 120px;
             display: flex;
             li{
                 padding: 0;
-                margin: 0px 90px 100px 90px;
+                margin: 10px 90px 100px 90px;
                 img{
                     height: 0px;
                     width: 0px;
@@ -355,7 +355,7 @@ margin-left: 120px;
                 display: flex;
                 li{
                     padding: 0;
-                    margin: 0px 90px 100px 90px;
+                    margin: 12px 90px 100px 90px;
                     img{
                         height: 0px;
                         width: 0px;
@@ -398,7 +398,6 @@ margin-left: 120px;
 }
 /*TERMINA CONTACTO TABLET*/
 /*EMPIEZA EN-CONSTRUCCION TABLET*/
-/*EMPIEZA INDEX TABLET*/
 @media (max-width: 768px){
     header{
         width: 100%;
@@ -447,7 +446,6 @@ margin-left: 120px;
         }
     }
 }
-}
 .secE3{
     h2{
         text-align: center;
@@ -466,5 +464,6 @@ margin-left: 120px;
         width: 350px;
         height: 200px;
     }
+}
 }
 /*TERMINA EN-CONSTRUCCION TABLET*/
