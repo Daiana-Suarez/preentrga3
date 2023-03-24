@@ -123,6 +123,17 @@ footer{
             margin-left: 0px;
     }
     }
+    .talleres{
+        fieldset{
+            ul{
+                li{
+                    label{
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
 }
 /*EMPIEZA INDEX 425*/
 @media (max-width: 425px) {

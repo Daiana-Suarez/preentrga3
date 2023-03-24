@@ -535,11 +535,17 @@ header {
   grid-area: secC4;
 }
 
-.ulContacto {
-  padding: 20px;
+.talleres fieldset ul li label {
+  font-size: 20px;
+  font-family: fantasy;
+  padding: 50px;
 }
-.ulContacto li {
-  padding: 10px;
+
+.dudas label {
+  font-family: fantasy;
+  padding: 50px;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .secC5 {
@@ -567,12 +573,114 @@ section fieldset legend {
   height: 150px;
 }
 
-.bold {
-  font-weight: bold;
+.talleres fieldset ul {
+  padding-bottom: 20px;
 }
 
-.datos {
-  font-size: x-large;
+.talleres fieldset legend {
+  font-size: 30px;
+}
+
+.talleres input {
+  margin-top: 10px;
+}
+
+.input {
+  color: #9259c7;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+  padding-left: 40px;
+  margin-left: 40px;
+}
+
+.input:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.input1 {
+  color: #9259c7;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+  padding-left: 40px;
+  margin-left: 53px;
+}
+
+.input1:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.input2 {
+  color: #9259c7;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+  padding-left: 40px;
+  margin-left: 30px;
+}
+
+.input2:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.input3 {
+  color: #9259c7;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+  padding-left: 40px;
+  margin-left: 53px;
+  height: 70px;
+}
+
+.input3:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #b17eb4;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #a13cc9;
+}
+
+.button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #b17eb4;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.button:hover::before {
+  width: 105%;
+}
+
+.button:hover {
+  color: #111;
 }
 
 /* TERMINA CSS CONTACTO*/
@@ -1555,6 +1663,9 @@ footer section div h2 {
     width: 400px;
     margin-left: 0px;
   }
+  .talleres fieldset ul li label {
+    padding: 0px;
+  }
 }
 /*EMPIEZA INDEX 425*/
 @media (max-width: 425px) {
@@ -2318,6 +2429,15 @@ footer section div h2 {
   .secC6 iframe {
     width: 300px;
     margin-left: -1px;
+  }
+  .talleres fieldset ul li label {
+    padding: 50px;
+  }
+  .list {
+    padding-top: 20px;
+  }
+  .talleres input {
+    margin-left: 10px;
   }
 }
 /*TERMINA CONTACTO MOBILE*/
