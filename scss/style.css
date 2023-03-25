@@ -884,7 +884,7 @@ footer section div h2 {
     width: 100%;
   }
   .grid1 {
-    width: 1280px;
+    width: 100%;
     height: auto;
   }
   .sec5 {
@@ -905,7 +905,7 @@ footer section div h2 {
     width: 100%;
   }
   .grid1 {
-    width: 1170px;
+    width: 100%;
   }
   .sec5 {
     width: 800px;
@@ -987,7 +987,7 @@ footer section div h2 {
 /*EMPIEZA INDEX 1024*/
 @media (max-width: 1024px) {
   .grid1 {
-    width: 1024px;
+    width: 100%;
   }
   .sec5 {
     width: 700px;
@@ -1038,6 +1038,7 @@ footer section div h2 {
 @media (max-width: 1024px) {
   .grid6 {
     height: auto;
+    width: 100%;
   }
   .secE3 p {
     font-size: 40px;
@@ -1062,7 +1063,7 @@ footer section div h2 {
   .grid1 {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
   .sec1 {
     height: 50px;
@@ -1164,7 +1165,7 @@ footer section div h2 {
   .grid2 {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
   .secQ1 {
     height: 50px;
@@ -1257,7 +1258,7 @@ footer section div h2 {
   .grid3 {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
   .secM1 {
     height: 50px;
@@ -1328,7 +1329,7 @@ footer section div h2 {
   .grid4 {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -1393,7 +1394,7 @@ footer section div h2 {
   .grid5 {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
   .secC1 {
     height: 50px;
@@ -1450,7 +1451,7 @@ footer section div h2 {
   .grid6 {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
   .secE1 {
     height: 50px;
@@ -1511,7 +1512,7 @@ footer section div h2 {
     width: 100%;
   }
   .grid1 {
-    width: 720px;
+    width: 100%;
     height: auto;
   }
   .sec3 {
@@ -1528,19 +1529,19 @@ footer section div h2 {
     margin: -50px 0px 0 110px;
   }
   .grid2 {
-    width: 720px;
+    width: 100%;
   }
   .grid3 {
-    width: 720px;
+    width: 100%;
   }
   .grid4 {
-    width: 720px;
+    width: 100%;
   }
   .grid5 {
-    width: 720px;
+    width: 100%;
   }
   .grid6 {
-    width: 720px;
+    width: 100%;
     height: auto;
   }
   .secM5 ul li iframe {
@@ -1555,6 +1556,9 @@ footer section div h2 {
   .swing img {
     margin-top: 200px;
   }
+  .secQ2 nav ul li {
+    margin: 15px 50px 10px;
+  }
 }
 /*EMPIEZA QUE-ES-LA-MEDIACION 425*/
 @media (max-width: 425px) {
@@ -1564,7 +1568,7 @@ footer section div h2 {
   .grid3 {
     display: flex;
     flex-direction: column;
-    width: 425px;
+    width: 100%;
   }
   .secM1 {
     display: flex;
@@ -1620,7 +1624,7 @@ footer section div h2 {
   .grid5 {
     display: flex;
     flex-direction: column;
-    width: 425px;
+    width: 100%;
   }
   .secC1 {
     display: flex;
@@ -1851,7 +1855,7 @@ footer section div h2 {
   .grid4 {
     display: flex;
     flex-direction: column;
-    width: 425px;
+    width: 100%;
   }
   .secA1 {
     display: flex;
@@ -1921,7 +1925,7 @@ footer section div h2 {
   .grid6 {
     display: flex;
     flex-direction: column;
-    width: 425px;
+    width: 100%;
     height: auto;
   }
   .secE1 {
@@ -1975,7 +1979,7 @@ footer section div h2 {
     width: 100%;
   }
   .grid6 {
-    width: 390px;
+    width: 100%;
     height: auto;
   }
   .secE2 nav {
@@ -1993,6 +1997,24 @@ footer section div h2 {
   }
   .grid1 {
     height: auto;
+  }
+  .grid3 {
+    width: 100%;
+  }
+  .grid2 {
+    width: 100%;
+  }
+  .grid5 {
+    width: 100%;
+  }
+  .grid4 {
+    width: 100%;
+  }
+  .secM5 ul li iframe {
+    width: 360px;
+  }
+  .secM7 {
+    width: 380px;
   }
   .sec2 nav {
     height: 200px;
@@ -2032,7 +2054,7 @@ footer section div h2 {
 /*EMPIEZA QUE ES LA MEDIACION 375*/
 @media (max-width: 375px) {
   .grid3 {
-    width: 375px;
+    width: 100% px;
   }
   .secM1 nav ul li {
     margin: -40px 20px 10px;
@@ -2050,7 +2072,7 @@ footer section div h2 {
 /*EMPIEZA ACTIVIDADES 375*/
 @media (max-width: 375px) {
   .grid4 {
-    width: 375px;
+    width: 100%;
   }
   .secA1 nav ul li {
     margin: 10px 20px 10px;
@@ -2063,7 +2085,7 @@ footer section div h2 {
 /*EMPIEZA CONTACTO 375*/
 @media (max-width: 375px) {
   .grid5 {
-    width: 375px;
+    width: 100%;
   }
   .secC1 nav ul {
     margin-top: 15px;
@@ -2080,15 +2102,16 @@ footer section div h2 {
 }
 /*TERMINA CONTACTO 375*/
 /*EMPIEZA QUIENES SOMOS 375*/
-.secQ2 nav ul li {
-  margin: 5px 10px 10px;
+@media (max-width: 375px) {
+  .secQ2 nav ul li {
+    margin: 5px 10px 10px;
+  }
 }
-
 /*TERMINA QUIENES SOMOS 375*/
 /*EMPIEZA EN CONSTRUCCION 375*/
 @media (max-width: 375px) {
   .grid6 {
-    width: 375px;
+    width: 100%;
     height: auto;
   }
   .secE2 nav ul li {
@@ -2292,7 +2315,7 @@ footer section div h2 {
   .grid3 {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 100%;
   }
 }
 @media (max-width: 320px) {
@@ -2359,7 +2382,7 @@ footer section div h2 {
   .grid4 {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 100%;
   }
   .secA1 {
     display: flex;
@@ -2429,7 +2452,7 @@ footer section div h2 {
   .grid5 {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 100%;
   }
   .secC1 {
     display: flex;

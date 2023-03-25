@@ -3,7 +3,7 @@
         width: 100%;
     }
     .grid1{
-        width: 720px;
+        width: 100%;;
         height: auto;
     }
     .sec3{
@@ -20,19 +20,19 @@
         margin: -50px 0px -0 110px;
     }
     .grid2{
-        width: 720px;
+        width: 100%;
     }
     .grid3{
-        width: 720px;
+        width: 100%;
     }
     .grid4{
-        width: 720px;
+        width: 100%;
     }
     .grid5{
-        width: 720px;
+        width: 100%;
     }
     .grid6{
-        width: 720px;
+        width: 100%;
         height: auto;
     }
     .secM5{
@@ -57,6 +57,15 @@
     .swing{
         img{
             margin-top: 200px;
+        }
+    }
+    .secQ2{
+        nav{
+            ul{
+                li{
+                    margin: 15px 50px 10px;
+                }
+            }
         }
     }
 }

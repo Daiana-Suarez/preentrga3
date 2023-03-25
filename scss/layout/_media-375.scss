@@ -33,7 +33,7 @@
 /*EMPIEZA QUE ES LA MEDIACION 375*/
 @media (max-width: 375px){
 .grid3{
-    width: 375px;
+    width: 100%px;
 }
 .secM1{
     nav{
@@ -69,7 +69,7 @@
 /*EMPIEZA ACTIVIDADES 375*/
 @media (max-width: 375px){
     .grid4{
-        width: 375px;
+        width: 100%;
     }
 .secA1{
     nav{
@@ -94,7 +94,7 @@
 /*EMPIEZA CONTACTO 375*/
 @media (max-width: 375px){
     .grid5{
-        width: 375px;
+        width: 100%;
     }
     .secC1{
         nav{
@@ -123,6 +123,7 @@
 }
 /*TERMINA CONTACTO 375*/
 /*EMPIEZA QUIENES SOMOS 375*/
+@media (max-width: 375px){
 .secQ2{
     nav{
         ul{
@@ -132,11 +133,12 @@
         }
     }
 }
+}
 /*TERMINA QUIENES SOMOS 375*/
 /*EMPIEZA EN CONSTRUCCION 375*/
 @media (max-width: 375px){
     .grid6{
-        width: 375px;
+        width: 100%;
         height: auto;
     }
     .secE2{
