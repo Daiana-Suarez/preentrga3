@@ -591,7 +591,7 @@ section fieldset legend {
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
-  max-width: 190px;
+  max-width: 100%;
   padding-left: 40px;
   margin-left: 40px;
 }
@@ -606,7 +606,7 @@ section fieldset legend {
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
-  max-width: 190px;
+  max-width: 100%;
   padding-left: 40px;
   margin-left: 53px;
 }
@@ -621,7 +621,7 @@ section fieldset legend {
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
-  max-width: 190px;
+  max-width: 100%;
   padding-left: 40px;
   margin-left: 30px;
 }
@@ -636,7 +636,7 @@ section fieldset legend {
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
-  max-width: 190px;
+  max-width: 100%;
   padding-left: 40px;
   margin-left: 53px;
   height: 70px;
@@ -676,7 +676,7 @@ section fieldset legend {
 }
 
 .button:hover::before {
-  width: 105%;
+  width: 100%;
 }
 
 .button:hover {
@@ -871,6 +871,9 @@ footer section div h2 {
   }
   .grid1 {
     height: auto;
+  }
+  .grid5 {
+    width: 100%;
   }
   .secA1 nav ul li {
     margin-top: 50px;
