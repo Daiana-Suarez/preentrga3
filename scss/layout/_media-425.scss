@@ -143,7 +143,8 @@ footer{
 .grid1{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 .sec1{
     display:flex;
@@ -401,6 +402,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 425px;
+    height: auto;
 }
 .secE1{
     display:flex;

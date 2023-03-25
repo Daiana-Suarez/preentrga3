@@ -1675,7 +1675,8 @@ footer section div h2 {
   .grid1 {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
   .sec1 {
     display: flex;
@@ -1921,6 +1922,7 @@ footer section div h2 {
     display: flex;
     flex-direction: column;
     width: 425px;
+    height: auto;
   }
   .secE1 {
     display: flex;
@@ -2003,6 +2005,12 @@ footer section div h2 {
   header {
     width: 100%;
   }
+  .grid1 {
+    height: auto;
+  }
+  .sec2 nav {
+    height: 200px;
+  }
   .sec2 nav ul li {
     margin-left: 50px;
   }
@@ -2083,7 +2091,7 @@ footer section div h2 {
   }
   .secE2 nav ul li {
     margin-left: 108px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .secE3 h2 {
     font-size: 50px;
