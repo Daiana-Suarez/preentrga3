@@ -1968,6 +1968,36 @@ footer section div h2 {
   }
 }
 /*TERMINA EN-CONSTRUCCION 425*/
+@media (max-width: 390px) {
+  header {
+    width: 100%;
+  }
+  .grid6 {
+    width: 390px;
+  }
+  .secE2 nav {
+    height: 200px;
+  }
+  .secE2 nav ul li {
+    margin-left: 100px;
+    padding: 3px;
+  }
+  .secE3 h2 {
+    font-size: 50px;
+  }
+  .swing img {
+    margin-top: -10px;
+  }
+  .grid1 {
+    height: auto;
+  }
+  .sec2 nav {
+    height: 200px;
+  }
+  .sec2 nav ul li {
+    margin: 5px 56px 10px;
+  }
+}
 /*EMPIEZA INDEX 375*/
 @media (max-width: 375px) {
   header {
